@@ -228,3 +228,34 @@
 .challange button{
     margin-bottom: 16px;
 }
+.footer-box{
+    background-color: #001931;
+    color: #FFFFFF;
+    padding: 120px 120px 30px 120px;
+}
+.foot{
+    width: 1600px;
+    margin: 0 auto;
+}
+.foot-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.foot-social p{
+   text-align: right;
+   font-size: 20px;
+   font-weight: 400;
+}
+.divider{
+  height: 1px;
+  background:white;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
+.copyright{
+    color: #FAFAFA;
+    text-align: center;
+    opacity: 0.7;
+}
