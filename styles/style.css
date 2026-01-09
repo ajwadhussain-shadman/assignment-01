@@ -242,15 +242,21 @@
     align-items: center;
     justify-content: space-between; 
 }
+.foot-social{
+   margin-right: 120px;
+}
 .foot-social p{
-   text-align: right;
    font-size: 20px;
    font-weight: 400;
+   text-align: left;
+   margin-bottom: 16px;
 }
+
 .divider{
   height: 1px;
   background:whitesmoke;
   margin-bottom: 30px;
+  margin-top: 80px;
 }
 
 .copyright{
