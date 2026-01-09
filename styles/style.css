@@ -114,8 +114,53 @@
     color: #001931;
     margin-top: 66px;
 }
-.header {
+.header p{
     color: #627382;
     line-height: 20;
     font-size: 16px;
+}
+.card{
+    width: 1360px;
+    margin: 0 auto;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+      gap: 24px;
+      padding-bottom: 120px;
+      height: 300px;
+}
+.cards .c{
+    text-align:center;
+    box-shadow: 0 10px 30px whitesmoke;
+    padding: 24px;
+    border-radius: 8;
+    
+  
+}
+.icon{
+     width:60px;
+    height:60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin: 16px auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.icon img{
+    width: 32px;
+    height: 32px;
+}
+.cards .c p{
+   font-size: 16px;
+   font-weight: normal;
+   color: #627382;
+
+}
+.cards .c h3{
+  color: #001931;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
