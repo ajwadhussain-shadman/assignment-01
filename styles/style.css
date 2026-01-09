@@ -71,7 +71,7 @@
  .badge{
   display: inline-block;
   padding: 8px 12px;
-   border-radius: 999px;
+   border-radius: 1000px;
 
   background-color:white;
   color: #469165;
@@ -81,9 +81,12 @@
 }
 
 .hero-title{
+    width: 1360px;
     color: white;
-    font-weight: 770;
-    margin: 16px 0;
+     font-weight: 770; 
+     font-size: 64px;
+    margin: auto;
+      
 }
 .hero-title span{
     color:#30B868;
