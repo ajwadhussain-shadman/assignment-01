@@ -141,11 +141,11 @@
 .icon{
      width:60px;
     height:60px;
-    background-color: #F95555;
+      background-color: #F95555; 
     border-radius: 50%;
-    margin: 16px auto;
+      margin: 16px auto;
     align-items: center;
-    display: flex;
+     display: flex;
     justify-content: center;
 }
 .icon img{
@@ -163,4 +163,68 @@
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 16px;
+}
+.solution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 120px;
+    gap: 60px;
+}
+.solution img{
+    width: 600px;
+    height: 600px;
+}
+.sol-text{
+    width: 700px;
+}
+.sol-text .sol-text-green{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+}
+.sol-text h1{
+   margin: 16px 0;
+   font-size: 48px;
+   font-weight: 700;
+   color: #001931;
+}
+.sol-text-small{
+    color: #627382;
+    font-size:16px;
+    font-weight: 400;
+}
+.sol-text ul{
+    margin-top: 40px;
+    list-style: none;
+}
+.sol-text ul li{
+    color:#003031;
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.challange{
+    width: 85%; 
+    background-color: #F7F6F2;
+    text-align: center;
+    justify-content: space-around;
+    margin: 120px;
+    padding: 80px 40px;
+    border-radius: 12px;
+
+}
+.challange h1{
+         font-size:40px ;
+         font-weight: 800;
+         margin-bottom: 16px;
+}
+.challange p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    margin-bottom: 24px;
+}
+.challange button{
+    margin-bottom: 16px;
 }
